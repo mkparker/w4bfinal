@@ -1,0 +1,190 @@
+/*==========FONTS===========*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Satisfy');
+
+
+
+/*==========Universal===========*/
+
+.pull-right {
+    float:right;
+}
+
+.pull-left {
+    float:left;
+}
+
+.inline {
+    display:inline;
+}
+
+a {
+        font-family: 'Lato', 'Helvetica'
+}
+
+ul {
+    list-style-type: none;
+}
+ 
+.active {
+    border-radius: 15px 50px;
+    background-color: #fff;
+    padding: 10px;
+}
+.active a {
+    color: #000;
+}
+
+h1 { 
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: : 1.5em;
+}
+
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 2em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+}
+
+ /*========HEADER SECTION=========*/
+ 
+ header {
+     background-color:#737373;
+     height: 96px;
+     padding: 0px 16px;
+
+ }
+ 
+ header a {
+     color:#fff;
+     
+ }
+ 
+ h1 {
+     color: #000;
+     text-align: center;
+     font-family: 'Lato';
+     
+ }
+ 
+ 
+ header nav ul li {
+     margin-right: 15px;
+ }
+ 
+ /*===========HERO SECTION=======*/
+ #hero {
+     background-image: url('../img/hero02.jpg');
+     background-size: auto;
+     background-position: center;
+     height: 350px;
+ }
+ 
+ .title-style {
+     margin: 0;
+     text-align: center;
+     margin-top: 12%;
+     margin-left: 30%;
+     position: absolute;
+     color: red;
+ }
+
+/*========ASIDE SECTION========*/
+.white-text {
+    color: #fff;
+}
+.centered {
+     text-align: center;   
+}
+
+aside {
+    width: 15%;
+    background-color: black;
+    height: 350px;
+    border: 2px solid red;
+    float: right;
+    font-family: 'Lato'
+}
+
+#winners {
+    padding-left: 0px;
+}
+
+.winners {
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.winners:hover a, .winners:hover {
+    background-color: #737373;
+    color: red;
+}
+
+aside a {
+    color:#fff;
+}
+
+ /*============MAIN SECTION==============*/
+ 
+ #main-heading {
+     font-weight: 700;
+     color: #000;
+ }
+ 
+ main {
+     float: right
+     width: 84.5%;
+     height: 350px;
+     overflow: auto;
+ }
+ 
+ 
+ #main-paragraph {
+     padding: 10px 20px;
+     margin: 0 auto;
+ }
+ 
+ p {
+     text-align: left;
+ }
+ 
+ #age-categories {
+     font-family: 'Lato'
+ }
+
+ 
+ 
+ /*===========FOOTER SECTION=========*/
+ footer {
+     height: 55px;
+     background-color: #737373;
+     clear: both;
+     padding: 8px 0px;
+     
+ }
+ 
+.fa {
+    margin-left: 8px;
+    
+}
+
+footer #social-media a {
+    color: #fff;
+}
+
+footer #social-media a:hover {
+    color: #fff;
+}
+
+#copyright {
+    text-align: right;
+    font-size: 10px;
+    color: white;
+    padding-right: 10px;
+}
